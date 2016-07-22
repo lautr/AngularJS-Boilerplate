@@ -1,7 +1,7 @@
 /**
  * Created by johannes on 17.07.15.
  */
-define(['angularAMD', 'jquery'], function (angularAMD) {
+define(['angularAMD', 'jquery', 'bootstrapJS'], function (angularAMD) {
   var app = angular.module("boilerplateApp", []);
 
   app.controller('ExampleController', function($scope){
